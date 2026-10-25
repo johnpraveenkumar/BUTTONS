@@ -1,0 +1,25 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070c0b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #162521;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00f585;
+}
+
+button, input, select {
+    -webkit-tap-highlight-color: transparent;
+}
